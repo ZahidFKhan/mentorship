@@ -1,0 +1,4 @@
+module service_impl {
+    requires all_dtos;
+    exports com.jmp.cloud.service;
+}
