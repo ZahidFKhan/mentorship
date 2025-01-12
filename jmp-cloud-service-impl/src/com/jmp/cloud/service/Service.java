@@ -11,7 +11,7 @@ import java.util.Optional;
 public interface Service {
     void subscribe(BankCard x);
 
-    Optional<Subscription> getSubscriptionByBankCardNumber(String x);
+   Subscription getSubscriptionByBankCardNumber(String x);
 
     List<User> getAllUsers();
 
