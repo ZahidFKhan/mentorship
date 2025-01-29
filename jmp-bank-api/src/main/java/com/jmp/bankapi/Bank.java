@@ -1,14 +1,11 @@
-package main.java.com.service;
+package com.jmp.bankapi;
 
-import main.java.dtos.BankCard;
-import main.java.dtos.BankCardType;
-import main.java.dtos.Subscription;
-import main.java.dtos.User;
 
 import java.util.List;
 import java.util.function.Predicate;
 
 public interface Bank {
-    BankCard createBankCard(User user, BankCardType bankCardType);
-    List<Subscription> getAllSubscriptionsByCondition(Predicate<Subscription> condition);
+    main.java.dtos.BankCard createBankCard(main.java.dtos.User user, main.java.dtos.BankCardType bankCardType);
+
+    List<main.java.dtos.Subscription> getAllSubscriptionsByCondition(Predicate<main.java.dtos.Subscription> condition);
 }
