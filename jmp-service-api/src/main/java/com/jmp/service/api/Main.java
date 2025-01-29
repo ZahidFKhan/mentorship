@@ -1,8 +1,9 @@
 package com.jmp.service.api;
 
+import com.jmp.bankapi.Bank;
+
 import java.util.List;
 import java.util.ServiceLoader;
-import main.java.com.service.Bank;
 
 public class Main {
   public static void main(String[] args) {

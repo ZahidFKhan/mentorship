@@ -3,7 +3,8 @@ package com.jmp.cloud.bank.impl;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.function.Predicate;
-import main.java.com.service.Bank;
+
+import com.jmp.bankapi.Bank;
 import main.java.dtos.Subscription;
 import main.java.dtos.User;
 
