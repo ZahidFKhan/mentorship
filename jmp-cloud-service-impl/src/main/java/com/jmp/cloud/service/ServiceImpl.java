@@ -4,9 +4,9 @@ import com.jmp.cloud.exception.ProhibitedSubscription;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
-import main.java.dtos.BankCard;
-import main.java.dtos.Subscription;
-import main.java.dtos.User;
+import jmp.dtos.BankCard;
+import jmp.dtos.Subscription;
+import jmp.dtos.User;
 
 public class ServiceImpl implements Service {
   @Override

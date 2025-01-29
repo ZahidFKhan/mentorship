@@ -5,13 +5,15 @@ import java.util.List;
 import java.util.function.Predicate;
 
 import com.jmp.bankapi.Bank;
-import main.java.dtos.Subscription;
-import main.java.dtos.User;
+import jmp.dtos.BankCard;
+import jmp.dtos.BankCardType;
+import jmp.dtos.Subscription;
+import jmp.dtos.User;
 
 public class CentralBank implements Bank {
   @Override
-  public main.java.dtos.BankCard createBankCard(
-      User user, main.java.dtos.BankCardType bankCardType) {
+  public BankCard createBankCard(
+      User user, BankCardType bankCardType) {
     return null;
   }
 

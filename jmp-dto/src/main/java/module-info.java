@@ -1,3 +1,3 @@
 module jmp_dtos {
-    exports main.java.dtos;
+    exports jmp.dtos;
 }

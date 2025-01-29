@@ -1,4 +1,4 @@
-package main.java.dtos;
+package jmp.dtos;
 
 public class BankCard {
     private final String number;

@@ -1,4 +1,4 @@
-package main.java.dtos;
+package jmp.dtos;
 
 import java.time.LocalDate;
 

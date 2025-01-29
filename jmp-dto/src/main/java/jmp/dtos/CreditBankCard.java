@@ -1,4 +1,4 @@
-package main.java.dtos;
+package jmp.dtos;
 
 public class CreditBankCard extends BankCard {
     public CreditBankCard(String number, User user) {
