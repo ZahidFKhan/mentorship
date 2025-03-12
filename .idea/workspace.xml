@@ -4,37 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d2b7385-a137-4f16-a67c-c47b75faf61b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ld/module2/testing/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ld/module2/testing/ConsoleMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ld/module2/testing/MailServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ld/module2/testing/Messenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/ld/module2/testing/template/TemplateGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/ld/module2/testing/MailServerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/ld/module2/testing/MessengerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/ld/module2/testing/template/TemplateEngineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/ld/module2/testing/template/TemplateGeneratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/epam/ld/module2/testing/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/epam/ld/module2/testing/ConsoleMode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/epam/ld/module2/testing/MailServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/epam/ld/module2/testing/Messenger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/epam/ld/module2/testing/template/TemplateGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.ld.module2.testing.MessengerTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.ld.module2.testing.template.TemplateGeneratorTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.epam.ld.module2.testing.MessengerTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.epam.ld.module2.testing.template.TemplateGeneratorTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/epam/ld/module2/testing/MailServerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/epam/ld/module2/testing/MessengerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/epam/ld/module2/testing/template/TemplateEngineTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/epam/ld/module2/testing/template/TemplateGeneratorTest.class" afterDir="false" />
+    <list default="true" id="7d2b7385-a137-4f16-a67c-c47b75faf61b" name="Default Changelist" comment="Add JUnit">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Junit/src/test/java/com/epam/ld/module2/testing/template/TemplateEngineTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +89,7 @@
     "git-widget-placeholder": "master",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -293,7 +267,31 @@
       <option name="presentableId" value="Default" />
       <updated>1590414174305</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add JUnit">
+      <option name="closed" value="true" />
+      <created>1741796482253</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741796482253</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add JUnit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JUnit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

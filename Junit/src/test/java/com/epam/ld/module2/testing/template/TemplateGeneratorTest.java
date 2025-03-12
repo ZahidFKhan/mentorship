@@ -1,5 +1,6 @@
 package com.junit;
 
+import com.epam.ld.module2.testing.template.TemplateGenerator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Assumptions;
 import org.junit.jupiter.api.BeforeAll;

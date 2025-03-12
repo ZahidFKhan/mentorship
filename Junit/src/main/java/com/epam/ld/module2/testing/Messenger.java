@@ -22,20 +22,20 @@ public class Messenger {
         this.templateGenerator = templateGenerator;
     }
 
-     String getConsoleString() throws IOException {
+     public String getConsoleString() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Enter template: ");
         return reader.readLine();
     }
 
-    String getFileTemplateInput(String inputFilePath) throws IOException {
+    public String getFileTemplateInput(String inputFilePath) throws IOException {
         try (BufferedReader reader = new BufferedReader(new FileReader(inputFilePath))) {
 
             return reader.readLine();
         }
     }
 
-     Map<String, String> getValues(String inputFilePath) throws IOException {
+     public Map<String, String> getValues(String inputFilePath) throws IOException {
         Map<String, String> values = new HashMap<>();
 
         String line;
@@ -50,7 +50,7 @@ public class Messenger {
         return values;
     }
 
-    Map<String, String> getValues() throws IOException {
+    public Map<String, String> getValues() throws IOException {
         Map<String, String> values = new HashMap<>();
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         while (true) {
@@ -71,7 +71,6 @@ public class Messenger {
 
     public String runConsoleMode() throws IOException {
         String template = getConsoleString();
-
         final var values = getValues();
 
         String result = templateGenerator.generate(template, values);
