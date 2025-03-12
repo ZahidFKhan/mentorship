@@ -13,7 +13,6 @@ import java.util.Map;
 
 class MessengerTest {
 
-
     @Test
     void whenRunInTheFileModeShouldPrintTheMessageFromTheFile(@TempDir Path tempDir) throws IOException {
         final var object = new Messenger(new TemplateGenerator());
