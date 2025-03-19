@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jmp-bank-api" target="21" />
+      <module name="jmp-cloud-bank-impl" target="21" />
+      <module name="jmp-cloud-service-impl" target="21" />
+      <module name="jmp-dto" target="21" />
+      <module name="jmp-service-api" target="21" />
+      <module name="my-project" target="21" />
+      <module name="simple-project" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
