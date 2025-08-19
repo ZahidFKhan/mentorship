@@ -12,5 +12,9 @@ public class Main {
         final List<Subscription> allSubscriptionsByCondition =
                 bank.getAllSubscriptionsByCondition(x -> !x.bankcardNumber().equals("123"));
         System.out.println(allSubscriptionsByCondition);
+
+    }
+    sealed interface X permits jmp_bank_api_module{
+
     }
 }
